@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Telegram Bot Token
-BOT_TOKEN = "7880287311:AAGICNjf3w4PeAFI0I0mSqe4SDF62As3xl8"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Multiple Idfy API credentials (api_key, account_id)
 API_CREDENTIALS = [
